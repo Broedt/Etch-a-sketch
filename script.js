@@ -25,7 +25,9 @@ function changeSize(){
         if (userInput >= 16 && userInput <= 100){
             sketchpad.replaceChildren();
             divCreator(userInput);
-            
+            }
+        else if (userInput == null || userInput == ""){
+            null;
         }
         else {alert("please enter a number between 16 and 100");
             changeSize();
