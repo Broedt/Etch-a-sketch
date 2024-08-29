@@ -9,8 +9,8 @@ function divCreator(rowsAndCols){
     let cellSize = containerSize/rowsAndCols -2 +"px";
 for (let i = 0 ; i < rowsAndCols*rowsAndCols; i++){
     let cell = document.createElement("div");
-        cell.style.backgroundColor = ("rgb(255, 255, 255");
-        cell.style.border = ("1px, solid black");
+        cell.style.backgroundColor = ("rgb(255, 255, 255)");
+        cell.style.border = ("1px, solid rgb(0, 0, 0)");
         cell.style.width = cellSize;
         cell.style.height = cellSize;
     sketchpad.appendChild(cell);
